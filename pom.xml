@@ -3,7 +3,7 @@
   <groupId>com.leadapp</groupId>
   <artifactId>demo-mvn</artifactId>
   <packaging>jar</packaging>
-  <version>3.11</version>
+  <version>3.12-SNAPSHOT</version>
   <name>demo-mvn</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -40,7 +40,7 @@
     <developerConnection>scm:git:https://github.com/learnnextgenskills/releasejenkinsfile.git</developerConnection>
     <url>https://github.com/learnnextgenskills/releasejenkinsfile</url>
  
-    <tag>demo-mvn-3.11</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
         <repository> 
