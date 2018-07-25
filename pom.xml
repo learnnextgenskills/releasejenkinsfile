@@ -40,6 +40,6 @@
     <developerConnection>scm:git:https://github.com/learnnextgenskills/releasejenkinsfile.git</developerConnection>
     <url>https://github.com/learnnextgenskills/releasejenkinsfile</url>
   
-    <tag>HEAD</tag>
+    <tag>release-3.8</tag>
   </scm>
 </project>
