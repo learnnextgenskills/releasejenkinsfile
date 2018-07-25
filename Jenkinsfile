@@ -1,5 +1,7 @@
-node('any'){
+pipeline {
+    agent any
  stage('Release') {
+     steps {
         withMaven(maven: 'Maven 3') {
                  dir('app') {
                     sh "git config user.email muralifmwdba@gmail.com && git config user.name Murali"
@@ -9,3 +11,5 @@ node('any'){
         }
     }
 	}
+}
+	
