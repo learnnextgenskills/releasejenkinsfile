@@ -1,3 +1,4 @@
+node('any'){
  stage('Release') {
         withMaven(maven: 'Maven 3') {
                  dir('app') {
@@ -7,3 +8,4 @@
                            
         }
     }
+	}
