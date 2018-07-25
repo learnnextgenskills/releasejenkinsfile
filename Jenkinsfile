@@ -6,7 +6,7 @@ pipeline {
         withMaven(maven: 'mvn') {
                  
                     sh "git config user.email muralifmwdba@gmail.com && git config user.name Murali"
-                    sh "mvn release:prepare release:perform -Dusername=learnnextgenskills -Dpassword=ramsai1919"
+                    sh "mvn release:clean release:prepare release:perform -Dusername=learnnextgenskills -Dpassword=ramsai1919"
              
                            
         }
